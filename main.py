@@ -27,4 +27,3 @@ print('inteceptes: ', model.intercept_)
 # plt.plot(diabetes_x_test, diabetes_y_predicted)
 
 # plt.show()
-# need more dedication
