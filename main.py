@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
-import  numpy as np
+import numpy as np
 from sklearn import datasets, linear_model
 from sklearn.metrics import mean_squared_error
 
 diabetes = datasets.load_diabetes()
 
 diabetes_x = diabetes.data
-
+# this is new comment
 diabetes_x_train = diabetes_x[:-30]
 diabetes_x_test = diabetes_x[-30:]
 
